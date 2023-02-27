@@ -1,0 +1,683 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}    
+html {
+    font-family: Segoe UI, Lucida Sans, sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+/* Default Code: Code for Mobile Phone*/
+.logo {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 200%;
+    position: relative;
+    top: 12px;
+}
+.illustration-1 {
+    width: 85%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 20px;
+}
+.navbar {
+    position: relative;
+    top: -35px;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-links ul {
+    display: flex;
+    position: relative;
+    margin: 20px; 
+}
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #333; 
+}
+.navbar-links li a:hover {
+    background-color:hsl(224, 93%, 58%);
+    color: #fff;
+    border-radius: 5px;
+}
+    
+h1 {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    font-size: 1.8rem;
+}
+.fylo {
+    text-align: center; 
+    width: 75%;
+    position: relative;
+    top: 45px;
+    margin-left: 35px;
+    font-size: 1em;  
+}
+.info-1 {
+    display: block;
+    margin: auto;
+    position: relative;
+    left: 97px;
+    top: 60px;
+}
+.first-email {
+    margin-left: -90px;
+    position: relative;
+    border: thin solid black;
+}
+.first-email, .first-button {
+    left: 20px;
+    width: 86%;
+    height: 40px;
+    border-radius: 2px;
+}
+.first-button {
+    margin-left: -90px;
+    position: relative;
+    top: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border-style: none;  
+}
+.curve-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 150px;
+    background-image: url(./images/bg-curve-mobile.svg);
+    width: 100%;
+    height: 1300px;
+    z-index: -1;
+}
+.illustration-2 {
+    width: 85%;
+    position: relative;
+    top: 85px;
+    left: 100px;
+    margin-left: -70px;
+    display: block;
+}
+h2 {
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-left: -20px;
+    position: relative;
+    top: 155px; 
+}
+/* paragraph under h2 */
+.sub-curve p {
+    position: relative;
+    top: 165px;
+    width: 90%;
+    margin-left: 20px;
+    
+}
+.see-how  {
+    position: relative;
+    top: 190px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(30, 140, 130);
+}
+.see-how img {
+    position: relative;
+    top: 3px;
+}
+hr {
+    width: 45%;
+}
+.quote-container {
+    position: relative;
+    bottom: -225px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    width: 90%;
+    left: 0;
+}
+.quote-container p {
+    width: 91%; 
+    top: 15px;
+    position: relative;
+    left: 7px;
+}
+.quote-container span {
+    position: relative;
+    display: block;
+    left: 140px;
+    top: -70px;
+    width: 60%;
+}
+.kyle {
+    font-weight: bold;
+}
+.quote {
+    position: relative;
+    left: 26px;
+    top: 30px;
+}
+/* class with the image of Kyle */
+.avatar {
+    clip-path: circle(40%);
+    position: relative;
+    top: 10px;
+    left: 12px;
+}
+.bluecontainer-1 {
+    position: relative;
+    bottom: -250px;
+    background-color:  hsl(238, 22%, 44%);
+    bottom: -320px;
+    height: 400px; 
+    z-index: 1;
+}
+/* class with h3 */
+.early {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 80px;
+    left: -10px;
+}      
+.early p {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 75%;
+    color: #fff;
+    position: relative;
+    top: 0;
+    left: 5px;
+}       
+/* div with second button element and input here */
+.info-2 {
+    position: relative;
+    top: 110px;
+    width: 100%;
+    left: 0;
+    margin: 0 auto;
+}
+.second-email:focus {
+    background-color: lightblue;
+}
+.second-email, .second-button {
+    border-radius: 2px;
+    border-style: none;
+    height: 20px;
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+.second-button {
+    position: relative;
+    top: 5px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+}
+.bluecontainer-2 {
+    background-color:  hsl(243, 87%, 12%);
+    color: #fff;
+    position: relative;
+    bottom: -290px;
+    height: 570px;
+    z-index: 1;
+    width: 100%;
+    z-index: 2;
+} 
+.about {
+    position: relative;
+    top: 55px;
+}
+.contact {
+    position: relative;
+    top: 60px;
+}
+.contact, .about {
+    line-height: 2.0;
+} 
+.email {
+    position: relative;
+    left: 45px;
+    top: 45px;
+}
+.email > span {
+    margin: 41px;
+    position: relative;
+    top: -3px;
+    left: -30px;
+}
+.phone {
+    position: relative;
+    left: 45px;
+    top: 30px;
+}
+.phone > span{
+    margin: 41px;
+    position: relative;
+    top: -3px;
+    left: -26px;  
+}
+.myfylo {
+    margin: 40px;
+    position: relative;
+    top: 45px;
+    -webkit-filter: invert(1);
+    filter: brightness(10%) invert(1);
+}
+.fa {
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+    margin: 0 auto;
+    top: 35px;
+    left: 75px;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook, .fa-twitter, .fa-instagram {
+    color: #fff;
+    margin: 10px;
+}
+.about > ul > li {
+    list-style: none;
+}
+.contact > ul > li {
+    list-style: none;
+}    
+
+
+/* Code for Laptop and Desktop */
+
+@media (min-width: 768px) {
+    /* two columns code */
+    .wrapper-1 {
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        gap: 10px; 
+        grid-auto-rows: 150px;
+        grid-template-areas:
+        "a b"
+        "c d";
+        align-items: start;   
+    }
+    .item-1 {
+        grid-area: b;
+        justify-items: end;
+    }
+    .item-2 {
+        grid-area: a;
+    }
+    .item-3 {
+        grid-area: c;
+        justify-items: end;
+    }
+    .item-4 {
+        grid-area: d
+    }
+    .wrapper-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-template-rows: 150px;
+        grid-template-areas:
+        "a b"
+        "a b";
+        align-items: start;    
+    }
+    .wrapper-3 {
+        display: grid;
+        grid-template-columns: 4 1fr;
+        grid-template-areas:
+        "a b c d ";
+        align-items: start;
+    } 
+    
+    .logo {
+        margin-left: 35px;
+        margin-top: 50px; 
+        display: flex;
+        width: 90%;
+        position: relative;
+        top: -15px;
+    }    
+    
+    .navbar {
+        position: relative;
+        top: -45px;
+        display: flex;
+        left: 5px;
+    }
+    .navbar-links ul {
+        margin: 0;
+        display: flex;
+        position: relative;
+        left: -30px;
+    }
+    .navbar-links li {
+        list-style: none;
+    }
+    .navbar-links li a {
+        text-decoration: none;
+        padding: 0.5rem;
+        color: #333;
+        font-size: 1.2rem;
+    }
+    .navbar-links li a:hover {
+        background-color:hsl(224, 93%, 58%);
+        color: #fff;
+        border-radius: 5px;
+    }
+    
+    .illustration-1 {
+        width: 28%;
+        display: flex;
+        position: relative;
+        top: 85px;
+        left: -780px;
+        margin-right: 2000px;
+    }
+    
+    h1 {
+        position: relative;
+        text-align: left;
+        top: 150px;
+        margin-left: 30px;
+        width: 35%;
+        font-size: 2.1rem
+    }
+    /* the first paragraph below h1 */
+    .fylo {
+        font-size: 1.1rem;
+        position: relative;
+        top: 90px;
+        left: -45px;
+        margin: 75px;
+        width: 35%;
+        text-align: left;
+    }
+    /* div with first input and button */
+    .info-1 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 40px;
+        margin-left: -765px;     
+    }
+    
+    .first-email {
+        width: 180%;
+        height: 45px;
+        padding: 10px 32px;
+        box-sizing: border-box;
+        border: 1px solid gray;
+        border-radius: 4px; 
+        font-size: 16px;
+        position: relative;
+        left: -190px;
+    }
+    
+    .first-email:focus {
+        background-color: lightblue;
+    
+    }
+
+    .first-button {
+        background-color:  hsl(224, 93%, 58%);
+        border: none;
+        width: 10%;
+        height: 45px;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 4px;
+        position: relative;
+        left: -30px;
+        top: 0;
+    }
+    .curve-container {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 495px;
+        background-image: url(./images/bg-curve-mobile.svg);
+        width: 1500px;
+    }
+    
+    .illustration-2 {
+        width: 120%;
+        max-height: 400px;
+        position: relative;
+        top: 160px;
+        left: 110px;
+        margin-left: 700px;
+        display: block;
+    }
+    
+    h2 {
+        display: block;
+        font-size: 2rem;
+        position: relative;
+        top: -250px;
+        width: 130%;
+        margin-left: 30px; 
+    }
+    /* div with illustration-2, h2 and second p */ 
+    .sub-curve {
+        width: 400px;
+    }
+    /* paragraph under h2 */
+    .sub-curve p {
+        position: relative;
+        top: -250px;
+        display: block;
+        width: 120%;
+        margin-left: 35px;
+        font-size: 1.05rem;
+
+    }
+    
+    .see-how {
+        position: relative;
+        top: -250px;
+        left: -90px;
+        text-align: center;
+        color: rgb(30, 140, 130);
+    }
+    
+    .see-how img {
+        position: relative;
+        top: 3px;
+    }
+    hr {
+        width: 155px;
+        position: relative;
+        top: -4px;
+    }
+    
+    .quote-container {
+        width: 90%;
+        background-color: #fff;
+        margin-left: 30px; 
+        display: block;
+        border-radius: 10px;
+        position: relative;
+        top: -220px;
+        height: 220px;
+    }
+    .quote-container p {
+        position: relative;
+        top: 0;
+        left: -10px;
+        width: 90%;
+        line-height: 1.5; 
+    }
+    
+    .quote-container span {
+        position: relative;
+        top: -60px;
+        display: block;
+        left: 80px; 
+    }
+    .kyle {
+        font-weight: bold;
+    }
+    .quote {
+        position: relative;
+        top: 20px;
+    }
+    /* class with the image of Kyle */
+    .avatar {
+        margin-left: 6px;
+        width: 15%;
+        clip-path: circle(40%);
+        position: relative;
+        top: -10px;
+    }
+    .bluecontainer-1 {
+        background-color: hsl(238, 22%, 44%);
+        position: relative;
+        top: -140px;
+        color: white;
+        height: 250px;
+        z-index: 1;
+    }
+    .early {
+        position: relative;
+        top: -12px;
+        display: block;  
+    }
+    h3 {
+        position: relative;
+        top: 40px;
+        left: -180px; 
+        font-size: 1.8rem;
+    }
+    .early p {
+       display: block;
+       margin-left: 39px;
+       position: relative;
+       top: 25px;
+       width: 61%;
+       font-size: 1rem;
+       text-align: left;
+    }
+    /* div with second button element and input here */
+    .info-2 {
+        width: 35%;
+        position: relative;
+        top: 75px !important; 
+        left: 0 !important;
+    }
+    .second-email {
+        width: 130% !important;
+        height: 40px;
+        position: absolute;
+        left: -80px;
+    }
+    .second-email:focus {
+        background-color: lightblue;
+    
+    }
+    .second-button {
+        position: absolute;
+        top: 55px;
+        left: -80px;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        width: 80%;
+        height: 40px;
+        border-color:  hsl(224, 93%, 58%);
+    }
+    .bluecontainer-2 {
+        background-color:  hsl(243, 87%, 12%);
+        color: #fff;
+        position: relative;
+        left: -1510px;
+        top: 1400px;
+        height: 350px;
+        width: 75%;
+        z-index: 2;
+    }
+
+    .about, .contact {
+        line-height: 2.0;
+        position: relative;
+        top: 150px;
+        left: -100px;
+    }
+    .phone {
+        position: relative;
+        left: 35px;
+        top: 40px;
+    }
+    .email {
+        margin: 41px;
+        position: relative;
+        left: -10px;
+        top: 15px;
+    }
+    .email > span {
+        position: relative;
+        left: -30px;
+        top: -3px;
+    }
+    .phone > span {
+        position: relative;
+        left: -30px;
+        top: -3px;  
+    }
+    .myfylo {
+        margin-left: 35px;
+        position: relative;
+        top: 45px;
+        -webkit-filter: invert(1);
+        filter: brightness(10%) invert(1);
+    }
+    .fa {
+        position: relative !important;
+        left: -50px !important;
+        top: 76px !important;
+    }
+      .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook, .fa-twitter, .fa-instagram {
+        color: #fff;
+        clip-path: circle(40%);
+        padding: 15px;     
+    }
+    .about > ul > li {
+        list-style: none;
+    }
+    .contact > ul > li {
+        list-style: none;
+    }
+    
+}
